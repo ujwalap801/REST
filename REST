@@ -42,3 +42,18 @@ GET  /posts/:id  to get one post(using id)
 CREATE id for Posts
 UUID Package
 Universally Unique Identifier (npm i uuid)
+
+4)Implement :PATCH/posts/:id
+Update Route
+PATCH  /posts/:id   to update specific post
+
+5)CREATE FROM FOR UPDATE
+Edit Route
+serve the edit form  GET  /posts/:id/edit
+
+
+method-override is used for post for patch,put and delete
+
+6)Implement: /posts/:id
+Destory Route
+DELETE   /posts/:id  to delete specific post
